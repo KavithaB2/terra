@@ -1,6 +1,6 @@
 #creating ec2 instance ec2.tf
 resource "aws_instance""instance1"{
-ami="ami-0b41f7055516b991a"
+ami="ami-0d92749d46e71c34c"
 instance_type="t2.small"
 key_name="forssh"
 vpc_security_group_ids=["${aws_security_group.demosg.id}"]
